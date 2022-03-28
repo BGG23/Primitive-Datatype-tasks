@@ -1,12 +1,12 @@
 # Tipo de datos primitivo 
 
-Al inicaiar la practica no me salia toda la ayuda para el comando asi que hice un "Update-Help" que tambien creo un error por que se tenian que aztualizar los parametros del idioma lo cual se soluciona introduciendo "Update-Help -Verbose -Force -ErrorAction -SilentlyContinue", aun que despues de introducir lo anterior salga un error los comandos de "Get-Help" ya funcionan al completo.
+Al iniciar la practica no me salia toda la ayuda para el comando así que hice un `Update-Help` que también creo un error por que se tenían que actualizar los parámetros del idioma lo cual se soluciona introduciendo `Update-Help -Verbose -Force -ErrorAction -SilentlyContinue`, aun que después de introducir lo anterior ssaldra un error volvemos a introducir un `Get-Help` el que sea y ya funcionan al completo.
 
-Al empezar salia muy poca o ninfuna informacion:
+Al empezar salia muy poca o ninguna información:
 
 ![image](https://user-images.githubusercontent.com/91567318/160452045-89398108-bda8-40c7-b10e-59cb0b7d2cac.png)
 
-El resultado de toda la informacion despues del "Update-Help -Verbose -Force -ErrorAction -SilentlyContinue":
+El resultado de toda la información después del `Update-Help -Verbose -Force -ErrorAction -SilentlyContinue`:
 
 ![image](https://user-images.githubusercontent.com/91567318/160465826-b7f88191-172d-49c0-ba71-36c3f51cecc8.png)
 
@@ -63,6 +63,8 @@ Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea
 
 ## Tarea 3 
 Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShell\Workshop1\%USERNAME%, El cmdlet para crear un archivo y un nuevo directorio comienza con “Nuevo”.
+
+md C:\Maximo\PowerShell\Workshop1\jordiop | New-item -Path C:\Maximo\PowerShell\Workshop1\jordiop -Name Testfile.txt -ItemType File
 
 · New-Item -Path C:\ -Name Expo -ItemType Directory
 
