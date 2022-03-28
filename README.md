@@ -1,4 +1,7 @@
 # Tipo de datos primitivo 
+
+
+
 ## Tarea 1 Use "Get-Help" para obtener más información sobre 5 cmdlets.  Como ejemplo, puede usar "Get-Service" o "Out-GridView".
 
 · Get-Help Get-Help
