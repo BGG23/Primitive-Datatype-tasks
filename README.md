@@ -62,33 +62,31 @@ Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea
 ---
 
 ## Tarea 3 
-Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShell\Workshop1\%USERNAME%, El cmdlet para crear un archivo y un nuevo directorio comienza con “Nuevo”.
+Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShell\Workshop1\%USERNAME%.
 
-md C:\Maximo\PowerShell\Workshop1\jordiop | New-item -Path C:\Maximo\PowerShell\Workshop1\jordiop -Name Testfile.txt -ItemType File
+·`md C:\Maximo\PowerShell\Workshop1\Belén`
 
-· New-Item -Path C:\ -Name Expo -ItemType Directory
+·`cd C:\Maximo\PowerShell\Workshop1\Belén`
 
-· New-Item -Path C:\Sudoblark -Name PowerShell -ItemType Directory
+·`New-item -Path C:\Maximo\PowerShell\Workshop1\Belén -Name Testfile.txt -ItemType File`
 
-· New-Item -Path C:\Sudoblark\PowerShell -Name Workshop1 -ItemType Directory
-
-· New-Item -Path C:\Sudoblark\PowerShell\Workshop1 -Name bclark -ItemType Directory
-
-· New-Item -Path C:\Sudoblark\PowerShell\Workshop1\bclark\ -Name Testfile.txt -ItemType File
+![image](https://user-images.githubusercontent.com/91567318/160489024-96b83f08-da9e-4953-ad6b-3dd6ec2846b9.png)
 
 ---
 
 ## Tarea 4 
 el archivo de texto que creó en la tarea 3 con los tres tipos de datos que hemos cubierto: "Booleano", " String” e “Int” El cmdlet que necesita comienza con “Add”.
 
-· Add-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Value True Agregar contenido -Ruta C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Valor " Hola" Agregar contenido -Ruta C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt -Valor 42 
+![image](https://user-images.githubusercontent.com/91567318/160490133-1d8a4394-b8cf-4195-9f18-820e28cca41f.png)
 
 ---
 
 ## Tarea 5 
-Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos devuelto , El cmdlet que necesita para leer los datos del archivo de texto comienza a "Obtener".
+Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos devuelto , El cmdlet que necesita para leer los datos del archivo de texto comienza a "Get".
 
-· Get-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile .txt | Get-Member
+· `Get-Content -Path C:\Maximo\PowerShell\Workshop1\Belén\Testfile.txt | Get-Member`
+
+![image](https://user-images.githubusercontent.com/91567318/160490434-d62405a6-901a-4582-b6a3-a09b5ac23749.png)
 
 ---
 
@@ -96,14 +94,18 @@ Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos d
 Sobrescriba todos los datos dentro del archivo de texto que creó en la tarea 3. 
 El cmdlet que necesita comienza con "Set".
 
-· Set-Content -Path C:\Sudoblark\PowerShell\Workshop1\bclark\Testfile.txt - Valor "Boooooo"
+· `Set-Content -Path C:\Maximo\PowerShell\Workshop1\Belén\Testfile.txt - Valor "Boooooo"`
+
+![image](https://user-images.githubusercontent.com/91567318/160491962-0239ea70-c9b8-4131-a013-fbc85b57ca27.png)
 
 ---
 
 ## Tarea 7 
 formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el cmdlet original y luego usar el cmdlet "Format-List".
 
-· Get-Service | Format-List
+· `Get-Service | Format-List`
+
+![image](https://user-images.githubusercontent.com/91567318/160492163-8b57b0b4-86ec-4172-b683-1e867c7c9252.png)
 
 ---
 
@@ -111,6 +113,8 @@ formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el c
 Canalice "Get-Command" en "Out-GridView". 
 
 · Get-Command | Out-GridView
+
+![image](https://user-images.githubusercontent.com/91567318/160492384-cfef58f8-7307-4b92-b1f3-0fad9a9ebc2c.png)
 
 ---
 
@@ -120,5 +124,10 @@ Canalice los 5 cmdlets que descubrió en la tarea 1 en "Out GridView".
 · Get-Help | Out-GridView 
 
 · Artículo nuevo | Out-GridView 
+
+---
+
+## Task  10
+Busque la biblioteca de documentación oficial de PowerShell en microsoft Google MSDN PowerShell. La URL comienza con “https://docs.microsoft.com”.
 
 ---
