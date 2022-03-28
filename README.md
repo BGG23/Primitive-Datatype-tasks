@@ -105,7 +105,7 @@ formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el c
 
 · `Get-Service | Format-List`
 
-![image](https://user-images.githubusercontent.com/91567318/160492163-8b57b0b4-86ec-4172-b683-1e867c7c9252.png)
+![image](https://user-images.githubusercontent.com/91567318/160494992-e4fa9f5d-a4b0-4aab-a675-de265f3cfae8.png)
 
 ---
 
@@ -121,13 +121,33 @@ Canalice "Get-Command" en "Out-GridView".
 ## Task 9 
 Canalice los 5 cmdlets que descubrió en la tarea 1 en "Out GridView". 
 
-· Get-Help | Out-GridView 
+· Get-Help Get-Help | Out GridView
 
-· Artículo nuevo | Out-GridView 
+![image](https://user-images.githubusercontent.com/91567318/160493795-a4f6ae3d-4faf-4d9a-953d-417a6dd946c1.png)
+
+· Get-Help New-Item | Out GridView
+
+![image](https://user-images.githubusercontent.com/91567318/160494316-baf4ecf6-e173-4155-9466-6c197158ed28.png)
+
+· Get-Help Get-Alias | Out GridView
+
+![image](https://user-images.githubusercontent.com/91567318/160494626-4d74766b-f991-48cd-9e59-e59dc1f1d5f9.png)
+
+· Get-Help Get-AuthenticodeSignature | Out GridView
+
+![image](https://user-images.githubusercontent.com/91567318/160494737-ae267518-e07d-4523-8359-e6d71229b363.png)
+
+· Get-Help Get-ControlPanelItem | Out GridView
+
+![image](https://user-images.githubusercontent.com/91567318/160494824-b9c6bfbb-abb4-491f-95ac-a15451cf2d5c.png)
 
 ---
 
 ## Task  10
 Busque la biblioteca de documentación oficial de PowerShell en microsoft Google MSDN PowerShell. La URL comienza con “https://docs.microsoft.com”.
+
+· https://docs.microsoft.com/es-es/powershell/
+
+![image](https://user-images.githubusercontent.com/91567318/160495130-e5083deb-e08c-4ba9-826c-764e482b64dc.png)
 
 ---
