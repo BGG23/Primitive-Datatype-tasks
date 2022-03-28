@@ -11,7 +11,8 @@ El resultado de toda la información después del `Update-Help -Verbose -Force -
 ![image](https://user-images.githubusercontent.com/91567318/160465826-b7f88191-172d-49c0-ba71-36c3f51cecc8.png)
 
 
-## Tarea 1 Use "Get-Help" para obtener más información sobre 5 cmdlets.  
+## Tarea 1 
+### Use "Get-Help" para obtener más información sobre 5 cmdlets.  
 
 · Get-Help Get-Help
 
@@ -36,8 +37,7 @@ El resultado de toda la información después del `Update-Help -Verbose -Force -
 ---
 
 ## Tarea 2 
-
-Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea 1. 
+### Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea 1. 
  
 · Get-Help Get-Help -Examples
 
@@ -62,7 +62,7 @@ Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea
 ---
 
 ## Tarea 3 
-Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShell\Workshop1\%USERNAME%.
+### Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShell\Workshop1\%USERNAME%.
 
 ·`md C:\Maximo\PowerShell\Workshop1\Belén`
 
@@ -75,14 +75,14 @@ Cree un nuevo archivo de texto llamado "TestFile. txt” en C:\ Maximo\PowerShel
 ---
 
 ## Tarea 4 
-el archivo de texto que creó en la tarea 3 con los tres tipos de datos que hemos cubierto: "Booleano", " String” e “Int” El cmdlet que necesita comienza con “Add”.
+### El archivo de texto que creó en la tarea 3 con los tres tipos de datos que hemos cubierto: "Booleano", " String” e “Int” El cmdlet que necesita comienza con “Add”.
 
 ![image](https://user-images.githubusercontent.com/91567318/160490133-1d8a4394-b8cf-4195-9f18-820e28cca41f.png)
 
 ---
 
 ## Tarea 5 
-Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos devuelto , El cmdlet que necesita para leer los datos del archivo de texto comienza a "Get".
+### Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos devuelto , El cmdlet que necesita para leer los datos del archivo de texto comienza a "Get".
 
 · `Get-Content -Path C:\Maximo\PowerShell\Workshop1\Belén\Testfile.txt | Get-Member`
 
@@ -91,8 +91,7 @@ Leer de el archivo de texto y use "Get-Member" para encontrar el tipo de datos d
 ---
 
 ## Task 6 
-Sobrescriba todos los datos dentro del archivo de texto que creó en la tarea 3. 
-El cmdlet que necesita comienza con "Set".
+### Sobrescriba todos los datos dentro del archivo de texto que creó en la tarea 3. El cmdlet que necesita comienza con "Set".
 
 · `Set-Content -Path C:\Maximo\PowerShell\Workshop1\Belén\Testfile.txt - Valor "Boooooo"`
 
@@ -101,7 +100,7 @@ El cmdlet que necesita comienza con "Set".
 ---
 
 ## Tarea 7 
-formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el cmdlet original y luego usar el cmdlet "Format-List".
+### Formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el cmdlet original y luego usar el cmdlet "Format-List".
 
 · `Get-Service | Format-List`
 
@@ -110,7 +109,7 @@ formato a los datos devueltos por un cmdlet en una lista, Deberá canalizar el c
 ---
 
 ## Task 8 
-Canalice "Get-Command" en "Out-GridView". 
+### Canalice "Get-Command" en "Out-GridView". 
 
 · Get-Command | Out-GridView
 
@@ -119,7 +118,7 @@ Canalice "Get-Command" en "Out-GridView".
 ---
 
 ## Task 9 
-Canalice los 5 cmdlets que descubrió en la tarea 1 en "Out GridView". 
+### Canalice los 5 cmdlets que descubrió en la tarea 1 en "Out GridView". 
 
 · Get-Help Get-Help | Out GridView
 
@@ -144,7 +143,7 @@ Canalice los 5 cmdlets que descubrió en la tarea 1 en "Out GridView".
 ---
 
 ## Task  10
-Busque la biblioteca de documentación oficial de PowerShell en microsoft Google MSDN PowerShell. La URL comienza con “https://docs.microsoft.com”.
+### Busque la biblioteca de documentación oficial de PowerShell en microsoft Google MSDN PowerShell. La URL comienza con “https://docs.microsoft.com”.
 
 · https://docs.microsoft.com/es-es/powershell/
 
