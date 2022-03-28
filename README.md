@@ -11,7 +11,7 @@ El resultado de toda la informacion despues del "Update-Help -Verbose -Force -Er
 ![image](https://user-images.githubusercontent.com/91567318/160465826-b7f88191-172d-49c0-ba71-36c3f51cecc8.png)
 
 
-## Tarea 1 Use "Get-Help" para obtener más información sobre 5 cmdlets.  Como ejemplo, puede usar "Get-Service" o "Out-GridView".
+## Tarea 1 Use "Get-Help" para obtener más información sobre 5 cmdlets.  
 
 · Get-Help Get-Help
 
@@ -41,13 +41,23 @@ Use "Get-Help" con el parámetro "–Example" para los 5 cmdletsmás en la tarea
  
 · Get-Help Get-Help -Examples
 
+![image](https://user-images.githubusercontent.com/91567318/160467291-ee56ae6b-63c5-427d-9796-e569a22e3573.png)
+
 · Get-Help New-Item -Examples
+
+![image](https://user-images.githubusercontent.com/91567318/160467487-0fb1c8c3-3538-4aca-937a-9b974052141d.png)
 
 · Get-Help Get-Alias -Examples
 
+![image](https://user-images.githubusercontent.com/91567318/160467635-5cabe205-62af-4e10-93cb-32827303fd97.png)
+
 · Get-Help Get-AuthenticodeSignature -Examples
 
-· Get-Help Get-ControlPanelItem -Examples 
+![image](https://user-images.githubusercontent.com/91567318/160467709-b84e0de7-3028-4e3b-9bbb-f163c88f1a5c.png)
+
+· Get-Help Get-ControlPanelItem -Examples
+
+![image](https://user-images.githubusercontent.com/91567318/160467793-874af37e-e6e4-4f8b-91b3-2218e18cbe58.png)
 
 ---
 
