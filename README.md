@@ -1,14 +1,21 @@
 # Tipo de datos primitivo 
 
+Al inicaiar la practica no me salia toda la ayuda para el comando asi que hice un "update-help" que tambien creo un error por que se tenian que aztualizar los parametros del idioma lo cual se soluciona introduciendo "Update-Help -Verbose -Force -ErrorAction -SilentlyContinue", aun que despues de introducir lo anterior salga un error los comandos de "get-help" ya funcionan al completo.
+
+Al empezar salia muy poca o ninfuna informacion:
+![image](https://user-images.githubusercontent.com/91567318/160452045-89398108-bda8-40c7-b10e-59cb0b7d2cac.png)
+
+El resultado de toda la informacion despues del "Update-Help -Verbose -Force -ErrorAction -SilentlyContinue":
+![image](https://user-images.githubusercontent.com/91567318/160465826-b7f88191-172d-49c0-ba71-36c3f51cecc8.png)
 
 
 ## Tarea 1 Use "Get-Help" para obtener más información sobre 5 cmdlets.  Como ejemplo, puede usar "Get-Service" o "Out-GridView".
 
 · Get-Help Get-Help
 
-![image](https://user-images.githubusercontent.com/91567318/160452045-89398108-bda8-40c7-b10e-59cb0b7d2cac.png)
-
 · Get-Help New-Item 
+
+![image](https://user-images.githubusercontent.com/91567318/160465839-3a172ac4-c53f-4977-855d-c1d21566df85.png)
 
 · Get-Help Get-Alias
 
